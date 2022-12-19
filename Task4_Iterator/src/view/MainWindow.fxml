@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowController">
+   <children>
+      <ImageView fx:id="imageCurrent" fitHeight="259.0" fitWidth="385.0" layoutX="109.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnStart" layoutX="181.0" layoutY="304.0" mnemonicParsing="false" onAction="#OnBtnStart" prefHeight="61.0" prefWidth="119.0" text="ЗАПУСК" />
+      <Button fx:id="btnStop" layoutX="301.0" layoutY="304.0" mnemonicParsing="false" onAction="#OnBtnStop" prefHeight="61.0" prefWidth="119.0" text="ОСТАНОВКА" />
+   </children>
+</AnchorPane>
